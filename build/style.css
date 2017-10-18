@@ -1,0 +1,121 @@
+/*
+Title: [New Website]
+Author: steve@steveorchosky.com
+Version: 1.0
+
+############################
+TABLE OF CONTENTS
+############################
+
+#Reset
+
+#Helpers
+  ##Fonts
+  ##Variables
+  ##Mixins
+
+#Components
+  ##Typography
+  ##Buttons
+  ##Header
+  ##Footer
+  
+#Layout
+  ##All
+  ##Tablet
+  ##Desktop
+  ##Large-Desktop
+
+*/
+/* ##Reset */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*****
+#Helpers
+*****/
+/* ##Import Fonts */
+/* ##Variables */
+/* ##Mixins */
+/*****
+#Components
+*****/
+/* ##Typography */
+h1 {
+  color: #333;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 3.4em;
+  text-align: center;
+  padding-bottom: 1em; }
+
+p {
+  color: #777;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  line-height: 1.6;
+  padding-bottom: 1em; }
+
+/* ##Buttons */
+/* ##Header */
+/* ##Footer */
+/*****
+#Layout
+*****/
+/* ##All */
+html {
+  font-size: 62.5%; }
+
+div.wrapper {
+  max-width: 72em;
+  margin: auto; }
+
+@media all and (min-width: 768px) {
+  /* ##Tablet */ }
+
+@media all and (min-width: 1080px) {
+  /* ##Desktop */ }
+
+@media all and (min-width: 1440px) {
+  /* ##Large-Desktop */ }
